@@ -11,9 +11,11 @@ function Navbar() {
         </h1>
         <ul className='nav-menu'>
             {MenuItems.map((item, index) => (
-                <li key={index} className={item.cName}>
+                <li key={index}>
                     <i className={item.icon}></i>
-                    <a href={item.url}>{item.title}</a>
+                    <a href={item.url} className={item.cName}>
+                        {item.title}
+                    </a>
                 </li>
             ))}
         </ul>
