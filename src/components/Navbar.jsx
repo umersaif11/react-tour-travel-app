@@ -12,8 +12,8 @@ function Navbar() {
         <ul className='nav-menu'>
             {MenuItems.map((item, index) => (
                 <li key={index}>
-                    <i className={item.icon}></i>
                     <a href={item.url} className={item.cName}>
+                        <i className={item.icon}></i>
                         {item.title}
                     </a>
                 </li>
