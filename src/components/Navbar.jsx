@@ -18,6 +18,7 @@ function Navbar() {
                     </a>
                 </li>
             ))}
+            <button className='sign-up-button'>Sign Up</button>
         </ul>
     </nav>
   )

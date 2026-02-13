@@ -15,10 +15,10 @@
 }
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     gap: 15px;
     list-style: none;
-    text-align: center;
+    align-items: center;
 }
 .nav-links {
     text-decoration: none;
@@ -36,4 +36,20 @@
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
+}
+.nav-links-mobile {
+    display: none;
+}
+.sign-up-button {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.sign-up-button:hover {
+    background-color: #151516;
+    color: #fff;
 }
