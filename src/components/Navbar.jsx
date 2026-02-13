@@ -10,7 +10,8 @@ function Navbar() {
         </h1>
         <ul className='nav-menu'>
             <li>
-                <i className="fa-solid fa-house"></i><a>Home</a>
+                <i className="fa-solid fa-house"></i>
+                <a href='/'>Home</a>
             </li>
         </ul>
     </nav>
