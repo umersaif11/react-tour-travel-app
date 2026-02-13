@@ -1,5 +1,6 @@
 import React from 'react'
 import "./NavbarStyles.css"
+import { MenuItems } from './ManuItems'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -9,10 +10,12 @@ function Navbar() {
             Trippy
         </h1>
         <ul className='nav-menu'>
-            <li>
-                <i className="fa-solid fa-house"></i>
-                <a href='/'>Home</a>
-            </li>
+            {MenuItems.map((item, index) => (
+                <li key={index} className={item.cName}>
+                    <i className={item.icon}></i>
+                    <a href={item.url}>{item.title}</a>
+                </li>
+            ))}
         </ul>
     </nav>
   )
