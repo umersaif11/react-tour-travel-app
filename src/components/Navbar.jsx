@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavbarStyles.css"
-import { MenuItems } from './ManuItems'
+import { MenuItems } from './MenuItems'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
