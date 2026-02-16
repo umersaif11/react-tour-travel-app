@@ -1,18 +1,13 @@
 import React from 'react'
 import './HeroStyles.css'
-import NatureImage from '../assets/12.jpg'
-function Hero() {
+function Hero({cName, heroImg, title, text}) {
   return (
     <>
-        <div className='hero'>
-            <img src={NatureImage} alt="HeroImage" />
+        <div className={cName}>
+            <img src={heroImg} alt="HeroImage" />
             <div className='hero-text'>
-                <h1>
-                    Your Journey Your Story
-                </h1>
-                <p>
-                    Choose Your Favourite Destination
-                </p>
+                <h1>{title}</h1>
+                <p>{text}</p>
                 <a href="/">Travel Plan</a>
             </div>
         </div>
