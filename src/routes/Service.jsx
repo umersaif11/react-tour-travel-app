@@ -2,7 +2,9 @@ import React from 'react'
 
 function Service() {
   return (
-    <>Service</>
+    <>
+      <h1>This is Service</h1>
+    </>
   )
 }
 
