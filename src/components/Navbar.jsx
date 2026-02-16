@@ -18,10 +18,10 @@ function Navbar() {
         <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
             {MenuItems.map((item, index) => (
                 <li key={index}>
-                    <a href={item.url} className={item.cName}>
+                    <Link to={item.url} className={item.cName}>
                         <i className={item.icon}></i>
                         {item.title}
-                    </a>
+                    </Link>
                 </li>
             ))}
             <button className='sign-up-button'>Sign Up</button>
