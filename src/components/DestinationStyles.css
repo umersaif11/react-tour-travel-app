@@ -37,3 +37,23 @@
     right: 0;
     top: -10%;
 }
+@media screen and (max-width: 850px) {
+    .destination {
+        padding: 4rem 2rem;
+    }
+    .first-des {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .des-text {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .image img {
+        height: 250px;
+    }
+}
