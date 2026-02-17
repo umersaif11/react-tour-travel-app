@@ -9,10 +9,11 @@ function DestinationItem({
     heading,
     text,
     img1,
-    img2
+    img2,
+    cName
 }) {
   return (
-    <div className='first-des'>
+    <div className={cName}>
         <div className='des-text'>
             <h2>{heading}</h2>
             <p>{text}</p>

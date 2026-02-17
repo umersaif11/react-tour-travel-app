@@ -10,6 +10,13 @@
     align-items: center;
     margin-top: 4.5rem;
 }
+.first-des-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5rem;
+}
 .des-text {
     width: 45%;
     text-align: start;
@@ -41,7 +48,7 @@
     .destination {
         padding: 4rem 2rem;
     }
-    .first-des {
+    .first-des, .first-des-reverse {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
