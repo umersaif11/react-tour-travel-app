@@ -19,6 +19,20 @@ function Trip() {
             Indian and Pacific oceans. It consists of over 17,000 islands, 
             including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea"
             />
+            <TripItem
+            image={Trip2}
+            heading="Trip in Malaysia"
+            text="Malaysia is a Southeast Asian country occupying parts of the Malay 
+            Peninsula and the island of Borneo. It's known for its beaches, rainforests 
+            and mix of Malay, Chinese, Indian and European cultural influences."
+            />
+            <TripItem
+            image={Trip3}
+            heading="Trip in France"
+            text="France, in Western Europe, encompasses medieval cities, alpine villages 
+            and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, 
+            classical art museums including the Louvre and monuments like the Eiffel Tower."
+            />
         </div>   
     </div>
   )
