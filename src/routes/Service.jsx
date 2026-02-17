@@ -10,7 +10,7 @@ function Service() {
       <Hero
       cName='hero-mid'
       heroImg={AboutImage}
-      title='About'
+      title='Service'
       url='/'
       btnClass='hide'
       />
