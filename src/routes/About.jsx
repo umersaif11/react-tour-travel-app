@@ -8,7 +8,7 @@ function About() {
     <>
       <Navbar/>
       <Hero
-      cName='hero'
+      cName='hero-mid'
       heroImg={AboutImage}
       title='Your Journey Your Story'
       text='Choose Your Favourite Destination'
