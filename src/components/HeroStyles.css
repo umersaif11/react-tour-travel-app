@@ -4,19 +4,19 @@
     height: 100vh;
     position: relative;
 }
+/* About Page Styling Start */
 .hero-mid {
     width: 100%;
     height: 70vh;
     position: relative;
 }
-.hero img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+.hero-mid h1 {
+    padding-top: 4rem;
 }
-.hero-mid img {
+/* About Page Styling End */
+img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     object-fit: cover;
 }
 .hero-text {
@@ -47,6 +47,9 @@
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
+}
+.hero-text .hide {
+    display: none
 }
 @media screen and (max-width: 555px) {
     .hero-text h1 {

@@ -10,11 +10,9 @@ function About() {
       <Hero
       cName='hero-mid'
       heroImg={AboutImage}
-      title='Your Journey Your Story'
-      text='Choose Your Favourite Destination'
-      buttonText='Travel Plan'
+      title='About'
       url='/'
-      btnClass='show'
+      btnClass='hide'
       />
     </>
   )
