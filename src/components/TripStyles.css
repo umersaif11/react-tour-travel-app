@@ -32,3 +32,18 @@
 .t-image:hover img {
     transform: scale(1.2);
 }
+.t-card h4 {
+    padding: 0.9rem 0.2rem 0;
+}
+@media screen and (max-width: 850px) {
+    .trip {
+        margin: 4rem 2rem;
+    }
+    .tripcard {
+        flex-direction: column;
+    }
+    .t-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
