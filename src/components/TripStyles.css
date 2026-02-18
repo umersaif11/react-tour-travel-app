@@ -18,3 +18,17 @@
     cursor: pointer;
     padding: 1rem 0.8rem;
 }
+.t-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.t-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+.t-image:hover img {
+    transform: scale(1.2);
+}
