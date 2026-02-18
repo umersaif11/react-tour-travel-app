@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AboutImage from '../assets/night.jpg'
+import Footer from '../components/Footer'
 
 function Service() {
   return (
@@ -14,6 +15,7 @@ function Service() {
       url='/'
       btnClass='hide'
       />
+      <Footer/>
     </>
   )
 }
