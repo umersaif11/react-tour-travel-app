@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import SignUpImage from '../assets/4.jpg'
 import Footer from '../components/Footer'
-
+import SignUpForm from '../components/SignUpForm'
 function SignUp() {
   return (
     <>
@@ -15,7 +15,7 @@ function SignUp() {
       url='/'
       btnClass='hide'
       />
-
+      <SignUpForm/>
       <Footer/>
     </>
   )
