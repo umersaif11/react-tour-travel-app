@@ -24,7 +24,7 @@ function Navbar() {
                     </Link>
                 </li>
             ))}
-            <button className='sign-up-button'>Sign Up</button>
+            <Link to='/signup'><button className='sign-up-button'>Sign Up</button></Link>
         </ul>
     </nav>
   )

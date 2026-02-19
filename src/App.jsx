@@ -6,6 +6,7 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Contact from './routes/Contact'
 import Service from './routes/Service'
+import SignUp from './routes/SignUp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/service' element={<Service/>}/>
+        <Route path='/signup' element={<SignUp/>}/>
       </Routes>
     </div>
   )
